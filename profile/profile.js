@@ -23,9 +23,6 @@ window.addEventListener('load', async () => {
     error = response.error;
     profile = response.data;
 
-    console.log(response);
-    console.log(error);
-
     if (error) {
         displayError();
     }
